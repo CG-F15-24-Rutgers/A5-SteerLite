@@ -15,7 +15,7 @@
 // #include "testcaseio/Behaviour.h"
 
 #define MAX_SPEED 2.6f
-#define PREFERED_SPEED 1.33 // TODO not added to parameters yet.
+#define PREFERED_SPEED 5.0 // TODO not added to parameters yet.
 
 
 #define ACCELERATION 0.5 // = v/A
@@ -23,7 +23,7 @@
 #define AGENT_REPULSION_IMPORTANCE 0.3 // in HiDAC
 #define QUERY_RADIUS 3.0f // not defined in paper
 #define BODY_FORCE 1500.0f // K (big K) 120000 / 80
-#define AGENT_BODY_FORCE 1500.0f
+#define AGENT_BODY_FORCE 500.0f
 #define SLIDING_FRICTION_FORCE 3000.0f // k (small k) 240000 / 80 = 3000
 #define AGENT_B 0.08f // inverse proximity force importance
 #define AGENT_A 25.0f // 2000 / 80 Yep its just called A... inverse proximity force importance
